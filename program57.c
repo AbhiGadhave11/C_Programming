@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+	int Arr[5];    // Array of 5 integers
+    int iSum = 0,iCnt=0;;
+	 printf("Enter Numbers\n");
+	 
+   for(iCnt=0;iCnt<5;iCnt++)
+	 {
+		 scanf("%d",&Arr[iCnt]);
+		 
+	 }
+	
+    for(iCnt=0;iCnt<5;iCnt++)
+    {
+		iSum = iSum + Arr[iCnt];
+	}
+     printf("Addition is : %d",iSum);		
+	return 0;
+}
