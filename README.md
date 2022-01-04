@@ -1,2 +1,2 @@
 # C_Programs
-This codes is my own created code
+This codes is my own created Applications
